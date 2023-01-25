@@ -7,6 +7,7 @@ const app: Express = express();
 const port = process.env.SERVER_PORT;
 
 app.get('/', (req: Request, res: Response) => {
+  console.log('Got body:', req.body);
   res.send('Express + TypeScript Server');
 });
 
