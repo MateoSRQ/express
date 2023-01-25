@@ -8,6 +8,7 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.20",
     "path": "^0.12.7",
+    "pino": "^8.8.0",
     "rfs": "^9.0.6",
     "rotating-file-stream": "^3.0.4"
   }

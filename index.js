@@ -1,6 +1,7 @@
 var express = require('express')
 var morgan = require('morgan')
 var path = require('path')
+var pico = require('pico')
 var rfs = require('rotating-file-stream') // version 2.x
  
 var app = express()
